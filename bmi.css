@@ -1,0 +1,70 @@
+*{
+    font-family: ravi;
+  
+   
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(181, 245, 241);
+}
+@font-face {
+    font-family: ravi;
+    src: url(./BYekan.ttf)
+}
+.main_Container{
+    width: 450px;
+    height: 550px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+    display: flex;
+    align-content: center;
+   border-radius: 20px;
+    flex-direction: column;
+    
+    
+}
+.main_Container h1{
+    margin-left: 80px;
+}
+#myProgress_Height ,#myProgress_Weight{
+    width: 60%;
+    margin-left: 80px;
+
+}
+#myProgress_Height{
+    margin-top: 60px;
+}
+.Height ,.Weight{
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   padding: 20px;
+ 
+ 
+}
+
+.Calculate_btn{
+margin-left: 120px;
+width: 200px;
+height: 40px;
+border-radius: 18px;
+background-color: rgb(110, 7, 7);
+margin-top: 30px;
+color: beige;
+}
+label{
+    background-color: white;
+  margin: 20px;
+  width: 70px;
+  text-align: center;
+  border-radius: 10px;
+}
+.Your_BMI{
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-direction: row;
+}
